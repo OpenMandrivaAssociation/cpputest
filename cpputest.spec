@@ -1,5 +1,6 @@
-%global forgeurl https://github.com/cpputest/cpputest
- 
+
+%define _disable_ld_no_undefined 1
+
 Name:           cpputest
 Version:        4.0
 Release:        1
