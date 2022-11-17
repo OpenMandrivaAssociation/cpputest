@@ -42,7 +42,8 @@ developing applications that use %{name}.
  
  
 %build
-%cmake
+%cmake   \
+         -DCPPUTEST_TEST_DISCOVERY=OFF
 %make_build
  
 %install
