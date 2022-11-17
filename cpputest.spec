@@ -43,7 +43,10 @@ developing applications that use %{name}.
  
 %build
 %cmake   \
-         -DCPPUTEST_TEST_DISCOVERY=OFF
+         -DCPPUTEST_TEST_DISCOVERY=OFF \
+         -DTESTS_DETAILED:BOOL=OFF \
+         -DCPPUTEST_BUILD_TESTING=OFF
+         
 %make_build
  
 %install
