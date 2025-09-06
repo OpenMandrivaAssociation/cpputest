@@ -1,0 +1,8 @@
+--- cpputest-4.0/src/CppUTest/CMakeLists.txt	2020-05-27 03:59:41.000000000 -0700
++++ cpputest-4.0-static/src/CppUTest/CMakeLists.txt	2025-08-30 15:48:32.214182719 -0700
+@@ -1,4 +1,4 @@
+-add_library(CppUTest
++add_library(CppUTest STATIC
+         CommandLineArguments.cpp
+         MemoryLeakWarningPlugin.cpp
+         TestHarness_c.cpp
